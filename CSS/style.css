@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+#header-bg{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(../Images/header3.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    padding: 2rem 7rem;
+    
+}
+
+#navlinks{
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30pt;
+    font-weight: bolder;
+}
+
+#ul-list{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.navitem{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 15pt;
+}
+
+.btn{
+    background-color: transparent;
+    padding: 4px 20px;
+    border-radius: 1rem;
+    border: none;
+    background-color: blue;
+}
+
+.btn:hover{
+    background-color: aliceblue;
+}
+
+.header-text{
+    text-align: right;
+    padding-top: 12rem;
+    color: aliceblue;
+}
+
+.header-text h1{
+    color: rgb(0, 0, 255);
+    font-size: 30pt;
+}
+
+.btn-2{
+    background-color: transparent;
+    padding: 4px 20px;
+    border-radius: 1rem;
+    border: none;
+    background-color: blue;
+    
+}
