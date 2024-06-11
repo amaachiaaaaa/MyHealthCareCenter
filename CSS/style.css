@@ -11,6 +11,8 @@ body{
     background-position: center;
     background-size: cover;
     padding: 2rem 7rem;
+    border-radius: 25px;
+    
     
 }
 
@@ -47,11 +49,12 @@ body{
     padding: 4px 20px;
     border-radius: 1rem;
     border: none;
-    background-color: blue;
+    background-color: #7C2424;
+    color: white;
 }
 
 .btn:hover{
-    background-color: aliceblue;
+    background-color: #FC644C;
 }
 
 .header-text{
@@ -61,15 +64,204 @@ body{
 }
 
 .header-text h1{
-    color: rgb(0, 0, 255);
+    color: #7C2424;
     font-size: 30pt;
 }
 
-.btn-2{
-    background-color: transparent;
-    padding: 4px 20px;
-    border-radius: 1rem;
-    border: none;
-    background-color: blue;
+.section1{
+    padding: 2rem 7rem;
+    margin-top: 4rem;
+    display: flex;
+    gap: 10rem;
+    
+border-radius: 25pt;
+height: 90vh;
+
+}
+
+.section1-text h2{
+   font-size: 25pt;
+   color: red;
+   font-weight: bolder;
+}
+
+.section1-text h4{
+    font-size: 15pt;
+    color: brown;
+
+}
+
+.section1-text p{
+    color: #EC4C2C;
+    line-height: 2.0;
+}
+
+.section2{
+    display: flex;
+    gap: 10rem;
+    padding: 2rem 7rem;
+    margin-top: 6rem;
+    background-color: rgba(0, 0, 0, 0.199);
+    border-radius: 25pt;
+   
+}
+
+.section2-text h1{
+    font-size: 25pt;
+    font-weight: bolder;
+    color: rgba(255, 0, 0, 0.651);
+}
+
+.section2-text p{
+    font-size: 15pt;
+    line-height: 1.0;
+    color: brown;
+}
+
+.img{
+    display: flex;
+}
+
+.links{
+    list-style: none;
+    text-decoration: none;
+    color: #EC4C2C;
     
 }
+   
+
+.section3{
+    margin-top: 6rem;
+    padding: 2rem 7rem;
+}
+    
+
+
+.section3-text h2{
+    text-align: center;
+}
+
+.img-img{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 4rem;
+    
+   
+}
+
+.sec-text{
+    text-align: center;
+    background-color: rgba(0, 0, 255, 0.336);
+    height: 40vh;
+    margin-top: 6rem;
+}
+
+.sec-text h1{
+    padding-top: 4rem;
+}
+
+.secsec{
+    display: flex;
+    padding: 2rem 7rem;
+    margin-top: 6rem;
+    gap: 10rem;
+    overflow-x: hidden;
+}
+
+.txt{
+    font-size: 25pt;
+    font-weight: bolder;
+    color: #EC4C2C;
+}
+
+.accord {
+    background-color: rgba(255, 0, 0, 0.26);
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    
+  }
+
+  .active, .accord:hover {
+    background-color: brown; 
+  }
+
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    
+  }
+
+  .content{
+    background-color: rgba(165, 42, 42, 0.432);
+    margin-top: 7%;
+    padding: 2rem 7rem;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer{
+    padding: 20px 0;
+
+}
+.list{
+    width: 25%;
+
+}
+.list h4{
+    font-size: 21px;
+    margin-bottom: 30px;
+    position: relative;
+    padding-left: 2rem;
+}
+.list h4::before{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 60px;
+    left: 0;
+    bottom: -10px;
+    background: #fff3f3;
+}
+ul li{
+    list-style-type: none;
+}
+
+.list ul li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    transition: 0.3s;
+
+}
+.list ul li a:hover{
+    color: rgba(233, 135, 7, 0.842);
+    transform: translateX(14px);
+}
+.social a{
+height: 40px;
+width: 40px;
+color: black;
+background-color: rgba(233, 135, 7, 0.842) ;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+font-size: 21px;
+border-radius: 15px;
+transition: 0.3s;
+
+
+}
+.social a:hover{
+    transform: scale(1.06);
+}
+
+
