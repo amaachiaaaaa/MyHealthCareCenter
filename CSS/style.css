@@ -24,7 +24,7 @@ body{
 #logo{
     text-decoration: none;
     color: aliceblue;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: monospace;
     font-size: 30pt;
     font-weight: bolder;
 }
@@ -44,28 +44,39 @@ body{
     font-size: 15pt;
 }
 
+.navitem:hover{
+    color: blue;
+}
+
 .btn{
     background-color: transparent;
-    padding: 4px 20px;
+    padding: 15px 30px;
     border-radius: 1rem;
     border: none;
-    background-color: #7C2424;
+    background-color: blue;
     color: white;
+    
 }
 
 .btn:hover{
-    background-color: #FC644C;
+    background-color: #044462;
 }
 
 .header-text{
-    text-align: right;
+    text-align: center;
     padding-top: 12rem;
     color: aliceblue;
 }
 
 .header-text h1{
-    color: #7C2424;
+    color: aliceblue;
     font-size: 30pt;
+}
+
+.header-text p{
+
+    font-size: 15pt;
+    line-height: 1.4;
 }
 
 .section1{
@@ -81,54 +92,62 @@ height: 90vh;
 
 .section1-text h2{
    font-size: 25pt;
-   color: red;
+   color: blue;
    font-weight: bolder;
 }
 
 .section1-text h4{
     font-size: 15pt;
-    color: brown;
+    color: black;
 
 }
 
 .section1-text p{
-    color: #EC4C2C;
+    color: black;
     line-height: 2.0;
+    font-size: 15pt;
 }
 
+.imgdoc img{
+    height: 80vh;
+}
 .section2{
     display: flex;
     gap: 10rem;
     padding: 2rem 7rem;
     margin-top: 6rem;
-    background-color: rgba(0, 0, 0, 0.199);
-    border-radius: 25pt;
+    background-color: #31a5a175;
+    
    
 }
 
 .section2-text h1{
     font-size: 25pt;
     font-weight: bolder;
-    color: rgba(255, 0, 0, 0.651);
+    color: blue;
 }
 
 .section2-text p{
     font-size: 15pt;
-    line-height: 1.0;
-    color: brown;
+    line-height: 1.7;
+    color: black;
 }
 
-.img{
+/* .img{
     display: flex;
-}
+    justify-content: space-between;
+} */
 
 .links{
     list-style: none;
     text-decoration: none;
-    color: #EC4C2C;
+    color:blue ;
     
 }
    
+.links:hover{
+    color: #044462;
+}
 
 .section3{
     margin-top: 6rem;
@@ -139,21 +158,36 @@ height: 90vh;
 
 .section3-text h2{
     text-align: center;
+    font-size: 30pt;
 }
 
 .img-img{
     display: grid;
     grid-template-columns: auto auto auto;
-    margin-top: 4rem;
+    gap: 10px;
+    /* background-color: #2196F3; */
+    padding: 10px;
     
    
 }
 
+.img-img-img{
+    padding: 10px;
+    background-color: #044462;
+    color: aliceblue;
+    box-shadow: 10px 10px;
+}
+.img-img-img img{
+    width: 100%;
+    
+}
+
 .sec-text{
     text-align: center;
-    background-color: rgba(0, 0, 255, 0.336);
+    background-color:#044462 ;
     height: 40vh;
     margin-top: 6rem;
+    color: aliceblue;
 }
 
 .sec-text h1{
@@ -166,17 +200,18 @@ height: 90vh;
     margin-top: 6rem;
     gap: 10rem;
     overflow-x: hidden;
+    
 }
 
 .txt{
     font-size: 25pt;
     font-weight: bolder;
-    color: #EC4C2C;
+    color: rgba(0, 0, 255, 0.726);
 }
 
 .accord {
-    background-color: rgba(255, 0, 0, 0.26);
-    color: #444;
+    background-color: #044462;
+    color: aliceblue;
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -189,7 +224,7 @@ height: 90vh;
   }
 
   .active, .accord:hover {
-    background-color: brown; 
+    background-color: #708998; 
   }
 
   .panel {
@@ -199,8 +234,9 @@ height: 90vh;
     
   }
 
+
   .content{
-    background-color: rgba(165, 42, 42, 0.432);
+    background-color: #708998;
     margin-top: 7%;
     padding: 2rem 7rem;
 }
@@ -220,7 +256,7 @@ height: 90vh;
     font-size: 21px;
     margin-bottom: 30px;
     position: relative;
-    padding-left: 2rem;
+    
 }
 .list h4::before{
     content: "";
@@ -229,7 +265,7 @@ height: 90vh;
     width: 60px;
     left: 0;
     bottom: -10px;
-    background: #fff3f3;
+    background: blue;
 }
 ul li{
     list-style-type: none;
@@ -243,7 +279,7 @@ ul li{
 
 }
 .list ul li a:hover{
-    color: rgba(233, 135, 7, 0.842);
+    color: blue;
     transform: translateX(14px);
 }
 .social a{
