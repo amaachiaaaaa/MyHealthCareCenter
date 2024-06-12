@@ -11,7 +11,7 @@ body{
     background-position: center;
     background-size: cover;
     padding: 2rem 7rem;
-    border-radius: 25px;
+    /* border-radius: 25px; */
     
     
 }
@@ -112,31 +112,91 @@ height: 90vh;
     height: 80vh;
 }
 .section2{
-    display: flex;
-    gap: 10rem;
+    
     padding: 2rem 7rem;
     margin-top: 6rem;
-    background-color: #31a5a175;
+    color: aliceblue;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../Images/bgimg.jpg);
+    height: 80vh;
+    text-align: center;
+    padding-top: 8rem;
     
    
 }
 
-.section2-text h1{
+.section2 h1{
     font-size: 25pt;
     font-weight: bolder;
     color: blue;
+  
+    
 }
 
-.section2-text p{
+.section2 p{
     font-size: 15pt;
     line-height: 1.7;
-    color: black;
+    color: aliceblue;
+   
 }
 
-/* .img{
-    display: flex;
-    justify-content: space-between;
-} */
+.sectionnn{
+    margin-top: 6rem;
+    padding: 2rem 7rem ;
+    
+}
+
+.sectionnn-txt h2{
+    text-align: center;
+    color: blue;
+}
+
+.serv{
+    position: relative;
+    width: 50%;
+    display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  padding: 10px;
+  
+}
+   
+
+
+.images{
+    display: block;
+  width: 100%;
+  height: auto;
+  font-size: 30px;
+  border: 1px solid black;
+}
+
+.over{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 56%;
+    height: 0;
+    transition: .5s ease;
+}
+
+.serv:hover  .over{
+    height: 100%;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
 
 .links{
     list-style: none;
@@ -146,7 +206,7 @@ height: 90vh;
 }
    
 .links:hover{
-    color: #044462;
+    color: aliceblue;
 }
 
 .section3{
@@ -165,17 +225,18 @@ height: 90vh;
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 10px;
-    /* background-color: #2196F3; */
-    padding: 10px;
+    text-align: center;
+    padding: 10px 20px;
     
    
 }
 
 .img-img-img{
     padding: 10px;
-    background-color: #044462;
-    color: aliceblue;
-    box-shadow: 10px 10px;
+    color: #044462;
+   width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .img-img-img img{
     width: 100%;
