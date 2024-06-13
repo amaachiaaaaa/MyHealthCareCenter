@@ -111,6 +111,16 @@ height: 90vh;
 .imgdoc img{
     height: 80vh;
 }
+
+.imgdoc h3{
+    text-align: center;
+}
+
+.imgdoc h5{
+    text-align: center;
+}
+
+
 .section2{
     
     padding: 2rem 7rem;
