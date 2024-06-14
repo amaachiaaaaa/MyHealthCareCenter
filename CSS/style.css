@@ -78,7 +78,7 @@ body{
 
 .header-text p{
 
-    font-size: 15pt;
+    font-size: 20pt;
     line-height: 1.4;
 }
 
@@ -146,7 +146,7 @@ height: 90vh;
 }
 
 .section2 p{
-    font-size: 15pt;
+    font-size: 20pt;
     line-height: 1.7;
     color: aliceblue;
    
@@ -315,6 +315,7 @@ height: 90vh;
   q {
     font-style: italic;
     color: aliceblue;
+    font-size: 20pt;
 }
 
   .author {color: blue;}
@@ -383,6 +384,7 @@ height: 90vh;
     background-color: #708998;
     margin-top: 7%;
     padding: 2rem 7rem;
+   
 }
 .main{
     display: flex;
