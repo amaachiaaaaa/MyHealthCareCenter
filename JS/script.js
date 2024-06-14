@@ -13,8 +13,6 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 
-<<<<<<< HEAD
-=======
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -72,4 +70,3 @@ btn5.onclick = function(){
     console.log('button has been clicked')
   alert("proceed to next page");
 }
->>>>>>> deae7fe5168a51cf69bdc4e4b0289a3de6b81cee

@@ -66,8 +66,9 @@ body{
 
 .header-text{
     text-align: center;
-    padding-top: 12rem;
+   margin: auto;
     color: aliceblue;
+    
 }
 
 .header-text h1{
@@ -185,14 +186,11 @@ height: 90vh;
     display: block;
     width: 170%;
     height: auto;
-<<<<<<< HEAD
-    
-=======
-    background-color: #008CBA;
+ background-color: #008CBA;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  border-radius: 20pt;
->>>>>>> deae7fe5168a51cf69bdc4e4b0289a3de6b81cee
+  border-radius:20pt;
 }
+
 
 
 .over{
