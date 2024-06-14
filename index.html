@@ -13,7 +13,7 @@
     <div>
         <header id="header-bg">
             <nav id="navlinks">
-                <a href="" id="logo">MyHealthCare</a>
+                <a href="" id="logo">MEL-MED!</a>
 
                     <ul id="ul-list">
                         <li><a href="" class="navitem">Home</a></li>
@@ -21,14 +21,14 @@
                         <li><a href="" class="navitem">Services</a></li>
                         <li><a href="" class="navitem">Contact Us</a></li>
 
-                        <button class="btn">Book an appointment</button>
+                        <button class="btn" id="btnbtn">Book an appointment</button>
                     </ul>
         
                 </nav>
                 <div class="header-text">
                     <h1>Your Health, Our Concern</h1>
                     <p>"Advanced medical care, compassionate staff, state-of-the-art facilities, patient-focused services."</p>
-                        <button class="btn">Free Consultation</button>
+                        <button class="btn" id="btnbtn2">Free Consultation</button>
                     </div>
                     
         </header>
@@ -52,7 +52,7 @@
                     of excellence, innovation, and continuous improvement, ensuring that every patient receives the best
                     possible care. Join us on this journey to a healthier future.</p>
 
-                    <button class="btn">Read More</button>
+                    <button class="btn" id="read1">Read More</button>
             </div>
             
         </section>
@@ -63,16 +63,17 @@
                     From emergency care to specialized fields like dentistry, optometry,<br> plastic surgery, pediatrics,
                     gynecology, oncology, and cardiology, our expert team <br>ensures exceptional treatment. With
                     state-of-the-art laboratory services, surgical <br>expertise, and compassionate nursing care."</p>
-                <button class="btn">Read More</button>
+                <button class="btn" id="read2">Read More</button>
         
         </section>
        
         <section class="sectionnn">
             <div class="sectionnn-txt">
-                <h2>Our Service</h2>
+                <h2>Some of Our Services</h2>
             </div>
             
-                 <div class="serv">
+               <div class="parent">
+                <div class="serv">
                     <img src="Images/dent1.jpg" alt="" class="images">
                     <div class="over">
                         <div class="text">Dentistry</div>
@@ -103,7 +104,7 @@
                 </div>
 
                 <div class="serv">
-                    <img src="Images/gynae.jpg" alt="" class="images">
+                    <img src="Images/gynae.jpg" alt="" class="images" id="div-img">
                     <div class="over">
                         <div class="text">Gynaecology</div>
                     </div>
@@ -130,6 +131,7 @@
                     </div>
                 </div>
 
+               </div>
              </section>
 
         <section class="section3">
@@ -159,6 +161,36 @@
             
         </section>
 
+        <section>
+            <div class="slideshow-container">
+
+                <div class="mySlides">
+                  <q>"The staff were amazing during my heart surgery.I felt cared for and supported every step of the way. They helped me feel confident about my recovery."</q>
+                  <p class="author">- Pearl Keats</p>
+                </div>
+                
+                <div class="mySlides">
+                  <q>The delivery nurses were incredibly calming and professional, and they made sure our childbirth experience was positive.</q>
+                  <p class="author">- Ellen Hemingway</p>
+                </div>
+                
+                <div class="mySlides">
+                  <q>Everything is clean and modern, and the waiting areas are comfortable. It made a big difference during a stressful time." </q>
+                  <p class="author">- Patrick Edison</p>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+                
+            </div>
+                
+                <div class="dot-container">
+                  <span class="dot" onclick="currentSlide(1)"></span> 
+                  <span class="dot" onclick="currentSlide(2)"></span> 
+                  <span class="dot" onclick="currentSlide(3)"></span> 
+                </div>
+        </section>
+
         <section class="sec-text">
             <h1>Emergency Call Number</h1>
             <h2>+(000) 000-000-000</h2>
@@ -186,14 +218,14 @@
 
           <div>
             <h2 class="txt">Book an Appointment</h2> 
-            <form action="/action_page.php">
+            <form action="">
                 <label for="fname">First name:</label><br>
                 <input type="text" id="fname" name="fname" value=""><br>
                 <label for=",mname">Middle name:</label><br>
                 <input type="text" id="mname" name="mname" value=""><br>
                 <label for="lname">Last name:</label><br>
                 <input type="text" id="lname" name="lname" value=""><br><br>
-                 <button class="btn">Submit</button>
+                 <button class="btn" id="sub">Submit</button>
               </form>
             
           </div>
